@@ -8,6 +8,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="topBar">
+        <div class="apBox wallet">
+            <p class="amountPossible">150 R$</p>
+        </div>
+        <div class="menuContainer">
+            <img src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/3/3/b/33bc4fcdc5e8503a5c69470ff53cb92094bb85a3.jpeg" class="menuIcon" onclick="toggleMenu()">
+            <div class="dropdownMenu">
+                <p class="menuItem">Withdraw</p>
+                <p class="menuItem">Settings</p>
+                <p class="menuItem">Log Out</p>
+            </div>
+        </div>
+    </div>
+    </div>
     <div class="games">
         <input class="searchBar" type="text" id="searchInput" placeholder="Search games...">
         <div class="game">
@@ -23,6 +37,7 @@
                         <p class="amountPossible">240 R$</p>
                     </div>
                 </div>
+                <button class="joinButton" onclick="joinGame('Doors')">Join Game</button>
             </div>
             <div class="extraInfo">
                 <div class="taskContent">
@@ -58,6 +73,7 @@
                         <p class="amountPossible">0.50 R$</p>
                     </div>
                 </div>
+                <button class="joinButton" onclick="joinGame('Pls Donate')">Join Game</button>
             </div>
             <div class="extraInfo">
                 <div class="taskContent">
@@ -71,6 +87,103 @@
                         <p class="amountPossible">0.40 R$</p>
                     </div>
                     <p class="task">Completing the task given by Carlos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="primaryInfo">
+                <img class="gameIcon" src="https://static.wikia.nocookie.net/workatapizzaplace/images/1/12/Waappicon.png/revision/latest?cb=20181023021028">
+                <div class="textInfo">
+                    <p class="gameName">Work at a Pizza Place</p>
+                    <p class="gameCreator">Dued1</p>
+                </div>
+                <div class="robuxPossible">
+                    <p class="upToText">UP TO</p>
+                    <div class="apBox">
+                        <p class="amountPossible">200 R$</p>
+                    </div>
+                </div>
+                <button class="joinButton" onclick="joinGame('Work at a Pizza Place')">Join Game</button>
+            </div>
+            <div class="extraInfo">
+                <div class="taskContent">
+                    <div class="apBox">
+                        <p class="amountPossible">0.10 R$</p>
+                    </div>
+                    <p class="task">Joining the game.</p>
+                </div>
+                <div class="taskContent">
+                    <div class="apBox">
+                        <p class="amountPossible">0.30 R$</p>
+                    </div>
+                    <p class="task">Delivering a pizza</p>
+                </div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="primaryInfo">
+                <img class="gameIcon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW8aEKGPprDcXZeBN47EfLTKSSz1IHH4xClw&s">
+                <div class="textInfo">
+                    <p class="gameName">Natural Disaster Survival</p>
+                    <p class="gameCreator">Stickmasterluke</p>
+                </div>
+                <div class="robuxPossible">
+                    <p class="upToText">UP TO</p>
+                    <div class="apBox">
+                        <p class="amountPossible">150 R$</p>
+                    </div>
+                </div>
+                <button class="joinButton" onclick="joinGame('Natural Disaster Survival')">Join Game</button>
+            </div>
+            <div class="extraInfo">
+                <div class="taskContent">
+                    <div class="apBox">
+                        <p class="amountPossible">0.10 R$</p>
+                    </div>
+                    <p class="task">Joining the game.</p>
+                </div>
+                <div class="taskContent">
+                    <div class="apBox">
+                        <p class="amountPossible">0.25 R$</p>
+                    </div>
+                   
+                    <p class="task">Surviving a disaster</p>
+                </div>
+                <div class="taskContent">
+                    <div class="apBox">
+                        <p class="amountPossible">0.50 R$</p>
+                    </div>
+                    <p class="task">Winning a round</p>
+                </div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="primaryInfo">
+                <img class="gameIcon" src="https://pbs.twimg.com/media/EVVRaNNXkAEO4_Q.jpg">
+                <div class="textInfo">
+                    <p class="gameName">Adopt Me!</p>
+                    <p class="gameCreator">DreamCraft</p>
+                </div>
+                <div class="robuxPossible">
+                    <p class="upToText">UP TO</p>
+                    <div class="apBox">
+                        <p class="amountPossible">100 R$</p>
+                    </div>
+                </div>
+                <button class="joinButton" onclick="joinGame('Adopt Me!')">Join Game</button>
+            </div>
+            <div class="extraInfo">
+                <div class="taskContent">
+                    <div class="apBox">
+                        <p class="amountPossible">0.10 R$</p>
+                    </div>
+                    <p class="task">Joining the game.</p>
+                </div>
+                <div class="taskContent">
+                    <div class="apBox">
+                        <p class="amountPossible">0.20 R$</p>
+                    </div>
+                    <p class="task">Caring for a pet</p>
                 </div>
             </div>
         </div>
