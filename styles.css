@@ -4,13 +4,69 @@ body {
     background-color: black;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    margin: 0;
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.wallet {
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.menuContainer {
+    margin: 10px 20px;
+    position: relative;
+}
+
+.menuIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #181818;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.menuItem {
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    background-color: #282828;
 }
 
 .games {
     max-width: 40%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 100px;
 }
 
 .searchBar {
@@ -90,10 +146,10 @@ body {
     font-size: 14px;
     font-weight: 700;
     margin: 0;
+    margin-right: 10px;
 }
 
 .apBox {
-    margin-left: 10px;
     background-color: rgb(23, 109, 23);
     padding-top: 5px;
     padding-bottom: 5px;
@@ -126,7 +182,7 @@ body {
 }
 
 .game.expanded {
-    height: 200px;
+    height: 260px;
 }
 
 .game.expanded .extraInfo {
