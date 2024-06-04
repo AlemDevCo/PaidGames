@@ -40,3 +40,8 @@ function updateAmountPossible(game) {
     const amountPossibleElement = game.querySelector('.primaryInfo .apBox .amountPossible');
     amountPossibleElement.textContent = total.toFixed(2) + ' R$';
 }
+
+function toggleMenu() {
+    const menu = document.querySelector('.dropdownMenu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+}
